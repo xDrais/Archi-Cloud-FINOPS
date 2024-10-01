@@ -1,4 +1,4 @@
-## Create a Virtual Network (VNet) with multiple subnets
+## 1) Create a Virtual Network (VNet) with multiple subnets
 
 ![alt text](1.png)
 
@@ -6,7 +6,7 @@
 
 ![alt text](3.png)
 
-## Set up Network Security Groups (NSGs) to control inbound and outbound traffic
+## 2) Set up Network Security Groups (NSGs) to control inbound and outbound traffic
 
 ![alt text](4.png)
 
@@ -18,7 +18,7 @@
 
 ![alt text](8.png)
 
-## Deploy VMs into specific subnets.
+## 3) Deploy VMs into specific subnets.
 
 ![alt text](9.png)
 
@@ -30,7 +30,7 @@
 
 3) if we do the change of network group like in the 2nd step we will find 2 subnets to select if not we will find only 1 subnet since we have the default vnet
 
-##  Configure VNet peering between two VNets
+##  4) Configure VNet peering between two VNets
 
 ![alt text](12.png)
 
@@ -41,8 +41,14 @@
 ![alt text](15.png)
 
 
-##  Remove the VMs and the resources
+##  5) Remove the VMs, the resources, snapchots and networks 
 
 ![alt text](16.png)
 
 ![alt text](17.png)
+
+![alt text](18.png)
+
+![alt text](19.png)
+
+![alt text](20.png)
