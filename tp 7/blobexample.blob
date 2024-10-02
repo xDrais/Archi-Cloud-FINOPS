@@ -1,0 +1,15 @@
+blob = new Blob(record.get(6));
+
+ 
+
+var date = Calendar.getInstance().getTime();
+
+var blob2 = new Blob(date.toString().getBytes());
+
+ 
+
+var base64string = "<BASE64STRING>"
+
+var base64bytes = Util.decodeBase64(varValue);
+
+var blob3 = new Blob(base64bytes);
