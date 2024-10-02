@@ -1,0 +1,26 @@
+{
+    "rules": [
+      {
+        "name": "rule1",
+        "enabled": true,
+        "type": "Lifecycle",
+        "definition": {
+          "filters": {
+            "blobTypes": ["blockBlob"],
+            "prefixMatch": ["yassincontainer"]
+          },
+          "actions": {
+            "baseBlob": {
+              "tierToCool": {
+                "daysAfterModificationGreaterThan": 30
+              },
+              "delete": {
+                "daysAfterModificationGreaterThan": 365
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  
